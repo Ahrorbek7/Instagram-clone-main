@@ -1,0 +1,44 @@
+@media (min-width:992px) and (max-width:1200px){
+    .post-list img {
+        margin: 0 4rem;
+    }
+    .explore-video {
+        width: 270px !important;
+    }
+    .nav-router {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .reels-block {
+        width: 50% !important;
+    }
+    .navbar {
+        width: 25vw;
+    }
+}
+@media (min-width:769px) and (max-width:991px) {
+    .navbar {
+        width: 30vw;
+    }
+    .profile-container {
+        margin: 0 40%;
+    }
+
+    .profile-container img {
+        width: 100px;
+        height: 100px;
+        margin: 0 2rem;
+    }
+    .posted-tab {
+        width: 60%;
+        height: 5vh;
+        display: flex;
+        left: 35% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .posted-tab h3 {
+        margin: 1rem auto !important;
+    }
+}
